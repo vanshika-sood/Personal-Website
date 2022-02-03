@@ -1,0 +1,172 @@
+body{
+  background: #FFF8F3;
+} 
+
+p{
+  font-family: 'Merriweather', serif;
+}
+ 
+h1{
+  font-family: 'Convergence', sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+h2,h3{
+  font-family: 'Convergence', sans-serif;
+}
+ .nav-bar{
+   padding: 30px;
+   padding-left: 50px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 1.5rem;
+ }
+
+ .bar-text{
+  font-family: 'Convergence', sans-serif;
+ }
+ .nav-link{
+  color: black;
+ }
+
+ .nav-link:hover{
+  color: black;
+ }
+
+ .nav-item{
+   margin-right: 20px;
+ }
+
+ #main-section{
+   margin: 30px 50px 50px 50px;
+   background: linear-gradient(45deg,#FBCAFF,#9AD0EC);
+   border-radius:10%;
+   height: 55%;
+ }
+
+ .main-para{
+   font-size: 1.5rem;
+ }
+ #main-section:hover{
+  box-shadow: 20px 20px 5px #FEE3EC;
+ }
+
+
+ .main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-item-left {
+  padding: 10%;
+  flex: 50%;
+}
+
+.flex-item-right {
+  padding: 5%;
+  flex: 50%;
+}
+
+#about-me{
+  margin: 80px 50px 50px 50px;
+   background: linear-gradient(45deg,#FF94CC,#FFEACA);
+   border-radius:10%;
+   /* height: 300px; */
+   padding:15px 3px 15px 3px;
+   text-align: center;
+   justify-content: center;
+}
+
+.about-text{
+  margin: 3%;
+}
+
+#about-me:hover{
+  box-shadow: 20px 20px 5px #FEE3EC;
+ }
+
+  #work{
+  margin: 80px 50px 50px 50px;
+   background: linear-gradient(45deg,#FBCAFF,#9AD0EC);
+   border-radius:10%;
+   text-align: center;
+   justify-content: center;
+   height: 700px;
+   
+} 
+
+.img{
+  padding: 30px;
+  width: 80%;
+  border-radius:10%;
+  margin: auto;
+  height: 700px;
+ 
+}
+
+ #footer{
+  
+    margin-top: 80px ;
+    background: linear-gradient(45deg,#FF94CC,#FFEACA);
+     border-top-left-radius: 10%;
+     border-top-right-radius: 10%;
+     padding-bottom: 20px;
+}
+
+.footer-icons{
+  padding: 10px;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-div-left{
+  width: 30%;
+  margin: 100px auto auto auto;
+  text-align: center;
+
+} 
+
+.footer-div-mid{
+  width: 30%;
+  margin-top: 30px;
+  text-align: center;
+
+} 
+
+.footer-div-right{
+  width: 30%;
+  margin: 100px auto auto auto;
+  text-align: center;
+
+} 
+
+.btn {
+  background: #CAB8FF;
+  background-image: -webkit-linear-gradient(top, #CAB8FF, #FDBAF8);
+  background-image: -moz-linear-gradient(top, #CAB8FF, #FDBAF8);
+  background-image: -ms-linear-gradient(top, #CAB8FF, #FDBAF8);
+  background-image: -o-linear-gradient(top, #CAB8FF, #FDBAF8);
+  background-image: linear-gradient(to bottom, #CAB8FF, #FDBAF8);
+  -webkit-border-radius: 16;
+  -moz-border-radius: 16;
+  border-radius: 16px;
+  font-family: Georgia;
+  color: black;
+  font-size: 31px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-left: 40px;
+
+}
+
+.btn:hover {
+  background: #ECA3F5;
+  text-decoration: none;
+}
+
+.about-me-btn{
+  all: unset;
+}
