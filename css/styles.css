@@ -15,6 +15,16 @@ h1{
 h2,h3{
   font-family: 'Convergence', sans-serif;
 }
+
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: purple;
+}
+
  .nav-bar{
    padding: 30px;
    padding-left: 50px;
@@ -48,7 +58,7 @@ h2,h3{
    font-size: 1.5rem;
  }
  #main-section:hover{
-  box-shadow: 20px 20px 5px #FEE3EC;
+  box-shadow: 20px 20px 5px #FDEBF7;
  }
 
 
@@ -79,6 +89,7 @@ h2,h3{
 
 .about-text{
   margin: 3%;
+  font-size: 1rem;
 }
 
 #about-me:hover{
@@ -169,4 +180,47 @@ h2,h3{
 
 .about-me-btn{
   all: unset;
+}
+
+
+
+@media(max-width:1028px) {
+  
+  .navbar{
+    float: none;
+    width: 100%;
+  }
+
+  .my-img{
+
+    display: none;
+  }
+
+  .btn{
+    margin: auto;
+  }
+
+  #work{
+    height: 300px;
+   
+  }
+
+  .img{
+    height: 300px;
+   
+  }
+
+  .footer-container{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .footer-div-mid{
+    width: 100%;
+  }
+
+  .footer-div-left,.footer-div-right{
+
+    margin: 30px auto auto auto;
+  }
 }
